@@ -7,4 +7,5 @@ import (
 
 func main() {
 	fmt.Println(greet.Greet("Kurs"))
+	fmt.Println("Alle " + greet.Greet("Kursteilnehmer"))
 }
