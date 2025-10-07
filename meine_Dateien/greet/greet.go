@@ -3,5 +3,5 @@ package greet
 import "fmt"
 
 func Greet(name string) string {
-	return fmt.Sprintf("Hallo %s1", name)
+	return fmt.Sprintf("Hallo %s!", name)
 }
